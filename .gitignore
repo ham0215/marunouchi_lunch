@@ -1,1 +1,12 @@
-node_modules
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled binary
+build/
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env*
