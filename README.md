@@ -62,3 +62,10 @@ git commit -m "create react app"
 git remote add origin git@github.com:ham0215/marunouchi_lunch.git
 git push -u origin master
 ```
+
+## add eslint
+```
+yarn add eslint --dev
+yarn add eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest --dev
+yarn eslint --init
+```
