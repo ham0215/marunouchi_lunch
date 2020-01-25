@@ -69,3 +69,17 @@ yarn add eslint --dev
 yarn add eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest --dev
 yarn eslint --init
 ```
+
+# infrastructure
+## domain
+Get domain with google domains.
+https://domains.google/intl/ja_jp/
+
+## storage
+Use google cloud storage as source code storage.
+
+1. Create backet
+2. Grant storage permission to allusers
+3. Get external ip address
+4. Create Cloud DNS and Add A record
+5. Create load balancer
