@@ -99,6 +99,9 @@ Cannot use...
 
 # infrastructure(Cloud Run)
 ## Cloud Build
-Create Cloud Build triger and generate setting files.
+1. Create Cloud Build triger
+2. Create Dockerfile, cloudbuild.yaml (and docker-compose.yml for local)
+3. Connect Github
+4. Grant Cloud Run admin right
 
 ## Cloud Run
