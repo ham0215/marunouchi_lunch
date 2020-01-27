@@ -4,6 +4,6 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ["push", "gcr.io/$_PROJECT_ID/nginx"]
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['beta', 'run', 'deploy', 'marunouchi_lunch', '--image', 'gcr.io/$_PROJECT_ID/nginx', '--region', 'asia-northeast1','--platform', 'managed', '--quiet']
+    args: ['beta', 'run', 'deploy', 'marunouchi-lunch', '--image', 'gcr.io/$_PROJECT_ID/nginx', '--region', 'asia-northeast1','--platform', 'managed', '--quiet']
 images:
   - gcr.io/$_PROJECT_ID/nginx
