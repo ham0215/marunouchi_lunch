@@ -1,3 +1,4 @@
+# development
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -71,6 +72,8 @@ yarn eslint --init
 ```
 
 # infrastructure
+Build infrastructure with GCP。
+
 ## domain
 Get domain with google domains.
 https://domains.google/intl/ja_jp/
@@ -80,6 +83,14 @@ Use google cloud storage as source code storage.
 
 1. Create backet
 2. Grant storage permission to allusers
-3. Get external ip address
-4. Create Cloud DNS and Add A record
-5. Create load balancer
+
+## ip address
+Get external ip address.
+
+## DNS
+Create Cloud DNS and Add A record.
+
+## load balancer
+Create load balancer.
+
+## Identity-Aware Proxy
