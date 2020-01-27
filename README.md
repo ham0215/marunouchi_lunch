@@ -71,7 +71,7 @@ yarn add eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typ
 yarn eslint --init
 ```
 
-# infrastructure
+# infrastructure(common)
 Build infrastructure with GCP。
 
 ## domain
@@ -90,7 +90,15 @@ Get external ip address.
 ## DNS
 Create Cloud DNS and Add A record.
 
+# infrastructure(LB)
 ## load balancer
 Create load balancer.
 
 ## Identity-Aware Proxy
+Cannot use...
+
+# infrastructure(Cloud Run)
+## Cloud Build
+Create Cloud Build triger and generate setting files.
+
+## Cloud Run
