@@ -1,4 +1,10 @@
 steps:
+  - name: node:13.5
+    entrypoint: yarn
+    args: ['install']
+  - name: node:13.5
+    entrypoint: yarn
+    args: ['build']
   - name: 'gcr.io/cloud-builders/docker'
     args: ["build", "-t", "gcr.io/$_PROJECT_ID/nginx", "-f", "Dockerfile", "."]
   - name: 'gcr.io/cloud-builders/docker'
