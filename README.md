@@ -105,3 +105,8 @@ Cannot use...
 4. Grant Cloud Run admin right
 
 ## Cloud Run
+Domain mapping
+
+## Credentials
+Create Credentials
+https://cloud.google.com/run/docs/authenticating/end-users?hl=ja

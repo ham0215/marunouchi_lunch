@@ -2,11 +2,14 @@
   "extends": [
     "react-app",
     "airbnb",
+    "prettier",
+    "prettier/react",
     "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "react",
+    "prettier",
     "eslint-plugin-jsx-a11y",
     "eslint-plugin-flowtype",
     "eslint-plugin-import",
